@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Buscar amigos</h1>
+
+  <script>
+    function buscarAmigos(amigos, nombre) {
+      var item = amigos.find(item => nombre === item.nombre);
+      // console.log(item);
+      console.info(item);
+    }
+
+
+
+    buscarAmigos(amigos = [{ nombre: "alejo", edad: 33 }, { nombre: "miguel", edad: 16 }], "miguel");
+
+  </script>
+
+</body>
+
+</html>
